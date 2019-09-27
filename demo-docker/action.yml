@@ -1,0 +1,16 @@
+name: 'PesterTest'
+author: 'omiossec'
+description: 'Test the Module'
+branding:
+  icon: 'book-open'
+  color: 'blue'
+inputs:
+  directory:
+    description: 'Directory to test'
+    default: "."
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.directory }}
