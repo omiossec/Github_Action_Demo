@@ -1,0 +1,13 @@
+name: Linux-wks
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Perform_Tests
+        shell: pwsh
+        run: .\performtest.ps1
