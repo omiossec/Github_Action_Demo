@@ -1,8 +1,4 @@
-param (
-    $BuildModulePath=$Env:BUILD_SOURCESDIRECTORY,
-    $ModuleName = $ENV:ModuleName
-)
-
+$ModuleName = "demomodule"
 
 $ModuleManifestPath = "./src/demomodule.psd1"
 
