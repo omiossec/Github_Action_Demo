@@ -1,0 +1,14 @@
+name: docker-wks
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: PesterTest
+        uses: ./demo-docker
+
