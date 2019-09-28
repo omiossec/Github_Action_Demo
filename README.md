@@ -6,12 +6,10 @@
 
 ![Linux Tests](https://github.com/omiossec/Github_Action_Demo/workflows/Linux-wks/badge.svg)
 
-
 ## English version
 
 This repository is an introduction to GitHub Actions with PowerShell. It a support for the FRPSUG and Paris PowerShell & DevOps meetup. 
 You will find here essential notions to understand who GitHub Actions work and how to use them with PowerShell.
-
 
 ## French version
 
